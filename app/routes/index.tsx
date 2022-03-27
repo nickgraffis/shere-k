@@ -1,5 +1,7 @@
 import { json, useLoaderData } from "remix";
 import { atom, useAtom } from "jotai";
+import Home from "~/layouts/Home";
+import Dashboard from "~/layouts/Dashboard";
 
 export const emoji = atom('🦄')
 
@@ -13,6 +15,6 @@ export default function IndexRoute() {
   const intro = useLoaderData();
 
   return (
-    <div>Hello, {intro.names} -- {emojiAtom}</div>
+    <Home />
   );
 }

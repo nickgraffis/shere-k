@@ -6,7 +6,7 @@
   "sideEffects": false,
   "engines": {
     "node": "16.*",
-    "npm": "7.*"
+    "npm": "8.*"
   },
   "scripts": {
     "build:css": "tailwindcss -m -i ./styles/app.css -o app/styles/app.css",

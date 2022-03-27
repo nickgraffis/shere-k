@@ -3,4 +3,4 @@ node_modules
 /netlify/functions/server/index.js
 /public/build
 /.netlify
-/app/styles/app.css
+app/styles/app.css
